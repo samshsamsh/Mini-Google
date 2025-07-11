@@ -14,12 +14,14 @@ body {
     padding: 10px;
     background-color:rgb(49, 52, 56);
     color:rgb(172, 172, 172);
-    font-size: 150px;
+    font-size: 120px;
     font-weight: 500;
     display: flex;
     justify-content:center;
     align-items: start;
-
+        @media screen and (max-width: 600px){
+        max-width: 100%;
+    }
 }
 
 .app-content {
